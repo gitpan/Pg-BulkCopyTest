@@ -1,0 +1,152 @@
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Tue Oct 19 23:22:32 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Tue Oct 19 23:24:06 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Sun Oct 24 00:35:40 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Sun Oct 24 00:42:27 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Sun Oct 24 00:44:49 2010
+Pg::BulkCopy invoked with Parameters:
+ dbistring DBI:Pg:dbname=pg_bulkcopy_test;host=127.0.0.1
+ dbiuser postgres
+ dbipass postgres
+ table testing
+ filename more1.tsv
+ workingdir /home/brainbuz/perl/Pg-BulkCopy/tdata/
+ tmpdir /tmp/
+ errorlog /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log
+ batchsize 10000
+ null ''
+ iscsv 0
+ debug 3
+
+Optionstr: 
+WITH NULL '' ;
+LOAD at Sun Oct 24 00:44:49 2010
+LOAD Command COPY testing FROM '/tmp/BULKCOPY.JOB' WITH NULL '' ;
+BatchCount 0, Iterator 1
+Processing Batch: 1
+BatchCount 0, Iterator 1
+BatchCount 1, Iterator 1
+Finished making batches
+DBI Error Encountered. Attempting to identify and reject bad record.
+
+ERROR   value too long for type character(3)
+CONTEXT   COPY testing  line 1  column threekar  ""TKK""
+Identified Error Line
+1
+ReWrite is rewriting a job file.
+DBI Error Encountered. Attempting to identify and reject bad record.
+
+ERROR   value too long for type character(3)
+CONTEXT   COPY testing  line 1  column threekar  ""DOR""
+Identified Error Line
+1
+ReWrite is rewriting a job file.
+Return Value: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Sun Oct 24 00:46:30 2010
+Pg::BulkCopy invoked with Parameters:
+ dbistring DBI:Pg:dbname=pg_bulkcopy_test;host=127.0.0.1
+ dbiuser postgres
+ dbipass postgres
+ table testing
+ filename more1.tsv
+ workingdir /home/brainbuz/perl/Pg-BulkCopy/tdata/
+ tmpdir /tmp/
+ errorlog /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log
+ batchsize 10000
+ null ''
+ iscsv 0
+ debug 3
+
+Optionstr: 
+WITH NULL '' ;
+LOAD at Sun Oct 24 00:46:30 2010
+LOAD Command COPY testing FROM '/tmp/BULKCOPY.JOB' WITH NULL '' ;
+BatchCount 0, Iterator 1
+Processing Batch: 1
+BatchCount 0, Iterator 1
+BatchCount 1, Iterator 1
+Finished making batches
+Return Value: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Sun Oct 24 00:46:57 2010
+Pg::BulkCopy invoked with Parameters:
+ dbistring DBI:Pg:dbname=pg_bulkcopy_test;host=127.0.0.1
+ dbiuser postgres
+ dbipass postgres
+ table testing
+ filename more1.tsv
+ workingdir /home/brainbuz/perl/Pg-BulkCopy/tdata/
+ tmpdir /tmp/
+ errorlog /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log
+ batchsize 10000
+ null ''
+ iscsv 0
+ debug 2
+
+Optionstr: 
+WITH NULL '' ;
+LOAD at Sun Oct 24 00:46:57 2010
+LOAD Command COPY testing FROM '/tmp/BULKCOPY.JOB' WITH NULL '' ;
+Processing Batch: 1
+Finished making batches
+Return Value: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Sun Oct 24 00:47:40 2010
+Pg::BulkCopy invoked with Parameters:
+ dbistring DBI:Pg:dbname=pg_bulkcopy_test;host=127.0.0.1
+ dbiuser postgres
+ dbipass postgres
+ table testing
+ filename more1.tsv
+ workingdir /home/brainbuz/perl/Pg-BulkCopy/tdata/
+ tmpdir /tmp/
+ errorlog /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log
+ batchsize 10000
+ null ''
+ iscsv 0
+ debug 2
+
+Optionstr: 
+WITH NULL '' ;
+LOAD at Sun Oct 24 00:47:40 2010
+LOAD Command COPY testing FROM '/tmp/BULKCOPY.JOB' WITH NULL '' ;
+Processing Batch: 1
+Finished making batches
+Return Value: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Sun Oct 24 00:48:14 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Sun Oct 24 00:51:30 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Mon Oct 25 01:14:47 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Mon Oct 25 01:15:41 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Mon Oct 25 01:16:55 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Mon Oct 25 01:17:39 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Mon Oct 25 01:19:03 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Mon Oct 25 01:27:13 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Mon Oct 25 01:27:50 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Mon Oct 25 01:29:19 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Thu Oct 28 00:38:57 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Thu Oct 28 00:39:48 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Thu Oct 28 00:40:25 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Thu Oct 28 00:40:40 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Thu Oct 28 00:41:14 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Sat Oct 30 23:32:31 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Mon Nov  1 18:47:01 2010
+Processing Batch: 1
+Debug Logging to /home/brainbuz/perl/Pg-BulkCopy/tdata/more1.tsv.log Mon Nov  1 19:13:19 2010
+Processing Batch: 1
